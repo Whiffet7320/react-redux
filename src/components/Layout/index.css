@@ -1,0 +1,39 @@
+.container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.container .header{
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  color: #fff;
+}
+.container .middle{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.container .middle .aside{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background: skyblue;
+}
+.container .middle .main{
+  position: absolute;
+  left: 200px;
+  top: 0;
+  height: 100%;
+  right: 0;
+  overflow: auto;
+}

@@ -1,0 +1,16 @@
+.student-table{
+  width: 100%;
+  margin-top: 20px;
+}
+.student-table table{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;  /* 边框折叠 */
+}
+.student-table table td,
+.student-table table th{
+  border: 1px solid #ccc;
+}
+.student-table table tr{
+  height: 40px;
+}

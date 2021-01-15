@@ -1,0 +1,15 @@
+.header-content{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content .left{
+  margin-left: 30px;
+}
+.header-content .left h1{
+  margin: 0;
+}
+.header-content .right{
+  margin-right: 30px;
+}
